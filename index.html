@@ -1,60 +1,121 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <script
-			  src="https://code.jquery.com/jquery-3.4.1.min.js"
-			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-			  crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <!--Navbar start-->
-        <nav>
-            <div class="nav-wrapper black">
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#internships">Internships</a></li>
-                    <li><a href="#technical-stack">Technical Stack</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                </ul>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Navbar start-->
+    <nav>
+        <div class="nav-wrapper black">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#internships">Internships</a></li>
+                <li><a href="#technical-stack">Technical Stack</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+    </ul>
+    <!--Navbar end-->
+
+
+    <!--About me section starts-->
+    <div class="about-me" id="about-me">
+        <img src="secondarycutout.png" class="light-img">
+        <img src="tertiary.png" class="pink-img">
+        <img src="primarycutout.png" class="dark-img">
+        <h2 class="about-me-text">Hi there!</h2><br><br><br>
+        <h2 class="about-me-text">I am Swarup Hegde</h2><br>
+        <a class="arrow" href="#"><i class="material-icons large">arrow_drop_down</i></a>
+    </div>
+    <!--About me ends-->
+
+    <!--Internships section start-->
+    <div class="internship" id="internships">
+        <h2 class="internship-header">Internships</h2>
+        <p class="internship-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.</p>
+        <img class="light-grass" src="https://www.isohack.in/static/media/light-grass.e8ecf56d.png">
+        <img class="dark-grass" src="https://www.isohack.in/static/media/dark-grass.da730635.png">
+
+
+
+        <img href="#climber" src="https://www.isohack.in/static/media/tent.a77c122d.png"
+            class="climber-tent modal-trigger">
+        <img href="#rtg" src="https://www.isohack.in/static/media/tent.a77c122d.png" class="rtg-tent modal-trigger">
+        <img href="#wcl" src="https://www.isohack.in/static/media/tent.a77c122d.png" class="wcl-tent modal-trigger">
+        <img href="#logicnxt" src="https://www.isohack.in/static/media/tent.a77c122d.png"
+            class="logicnxt-tent modal-trigger">
+
+        <div id="climber" class="modal">
+            <div class="modal-content">
+                <h4>Modal Header</h4>
+                <p>A bunch of text</p>
             </div>
-        </nav>
-        
-        <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
-        </ul>   
-        <!--Navbar end-->
-
-
-        <!--About me section starts-->
-        <div class="about-me" id="about-me">
-            <img src="secondarycutout.png" class="light-img">
-            <img src="tertiary.png" class="pink-img">
-            <img src="primarycutout.png" class="dark-img">
-            <h2 class="about-me-text">Hi there!</h2><br><br><br>
-            <h2 class="about-me-text">I am Swarup Hegde</h2><br>
-            <a class="arrow" href="#"><i class="material-icons large">arrow_drop_down</i></a>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+            </div>
         </div>
-        <!--About me ends-->
-
-        <!--Internships section start-->
-        <div class="internship" id="internships">
-
+        <div id="rtg" class="modal">
+            <div class="modal-content">
+                <h4>Modal Header</h4>
+                <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+            </div>
         </div>
-        <!--Internship section end-->
+        <div id="wcl" class="modal">
+            <div class="modal-content">
+                <h4>WCL Header</h4>
+                <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+            </div>
+        </div>
+        <div id="logicnxt" class="modal">
+            <div class="modal-content">
+                <h4>Modal Header</h4>
+                <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+            </div>
+        </div>
 
-        <!--JQuery for making sidenav appear-->
-        <script>
-             $(document).ready(function () {
-                    $('.sidenav').sidenav();
-                });
-        </script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    </body>
+
+    </div>
+    <!--Internship section end-->
+
+    <!--JQuery for making sidenav appear-->
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+        $(document).ready(function () {
+            $('.modal').modal();
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
 </html>
